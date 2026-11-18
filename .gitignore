@@ -1,0 +1,19 @@
+# Never commit or submit secrets
+.env
+
+# Python virtual environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Generated reports (the graded report files are created at runtime)
+*.md
+!README.md
+
+# VS Code
+.vscode/
+
+# Submission artifacts
+*.zip
+.DS_Store
